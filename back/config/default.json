@@ -1,0 +1,4 @@
+{
+    "db":"mongodb+srv://api:Azerty-1@cluster0.spc8e.mongodb.net/iledata?retryWrites=true&w=majority",
+    "secret":"ile"
+}
