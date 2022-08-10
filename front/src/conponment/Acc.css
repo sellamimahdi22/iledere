@@ -1,0 +1,100 @@
+.bravo_topbar{
+  background-color:  #1A2B48;
+  font-family: Poppins, sans-serif;
+font-size: 14px;
+line-height: 21px;
+text-decoration: none solid rgb(26, 43, 72);
+text-align: left;
+word-spacing: 0px;
+height: 51.1px;
+width: 1519.2px;
+padding: 15px 0 15px 0;
+display: block;
+}
+.container{
+background-position: 0% 0%;
+color:  #1A2B48;
+height: 21.1px;
+width: 1140px;
+margin: 0 190px 0 190px;
+padding: 0 15px 0 15px;
+max-width: 1140px;
+
+}
+.content{
+  height: 21.1px;
+width: 1110px;
+display: flex;
+}
+.topbar-left{
+  /* background-color:  #FFFFFF; */
+  background-position: 0% 0%;
+  color:  #FFFFFF;
+  height: 21.1px;
+width: 287.587px;
+display: block;
+
+}
+.socials{
+  display: inline-block;
+  height: 21.1px;
+  width: 78.8125px;
+}
+.line{
+  height: 1px;
+  width: 1px;
+  margin: 0 10px 0 10px;
+  min-height: 1px;
+  min-width: 1px;
+  color :  #FFFFFF;
+  background-position: 0% 0%;
+  color:  #FFFFFF;
+}
+
+.login-item{
+  display: inline-block;
+  background-color:  #FFFFFF;
+background-position: 0% 0%;
+color:  #1A2B48;
+text-decoration: none;
+}
+.signup-item{
+  display: inline-block;
+  background-color:  #FFFFFF;
+background-position: 0% 0%;
+color:  #1A2B48;
+text-decoration: none;
+text-align: left;
+}
+.topbar-items{
+
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none solid rgb(26, 43, 72);
+  text-align: left;
+  word-spacing: 0px;
+  background-position: 0% 0%;
+  color:  #1A2B48;
+  height: 18px;
+  width: 134.038px;
+  display: inline-block;
+}
+
+
+.bravo_header{
+
+  background-color:  #F4F5F9;
+  background-position: 0% 0%;
+  color:  #1A2B48;
+  display: block;
+}
+.bravo-menu{
+
+  height: 91px;
+  width: 839.35px;
+  padding: 0 0 0 20px;
+  min-height: auto;
+  min-width: auto;
+  display: block;
+}

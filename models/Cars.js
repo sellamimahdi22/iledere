@@ -1,5 +1,9 @@
 const mongoose=require('mongoose')
 const Schema= mongoose.Schema
+
+
+var URLSlug = require("mongoose-slug-generator");
+
 const carschema = new Schema({
         nom:{
             type: String,
@@ -31,8 +35,13 @@ const carschema = new Schema({
         },
         door:{
             type:Number,
-        }
+        },
+        slug: { type: String, slug: "nom"}
 
+    })
+    carschema.pre("save", function(next) {
+        this.slug = this.nom.split(" ").join("-");
+        next();
     }
 )
 module.exports=mongoose.model("Cars",carschema)
